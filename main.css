@@ -1,0 +1,70 @@
+body {
+	font-family: Roboto, Sans-Serif;
+	display: block;
+	width: 750px;
+	margin: 25px auto;
+	color: #161616;
+}
+
+/*---- Header Sytles ----*/
+.personal-info {
+	display: block;
+	height: 105px;
+}
+
+.name {
+	display: inline-block;
+	font-size: 1.5em;
+}
+
+.contact-info {
+	display: inline-block;
+	float: right;
+	text-align: right;
+	margin-top: 10px;
+}
+
+.contact-info ul {
+	list-style: none;
+	margin: 5px;
+}
+
+.contact-info li {
+	margin-top: 5px;
+}
+
+i {
+	margin-left: 8px;
+	color: #0c69ff;
+}
+
+/*---- Personal Statement Sytles ----*/
+.personal-statement {
+	margin-top: 40px;
+}
+
+.personal-statement p {
+	line-height: 1.4;
+}
+
+/*---- Employment History/Education Sytles ----*/
+.employer-info, .school-info {
+	margin-top: 5px;
+}
+
+.time-period {
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+
+.job-title, .degree-earned {
+	color: #0c69ff;
+}
+
+.job-details li {
+	margin-bottom: 10px;
+}
+
+.school-dates {
+	margin: 0px;
+}
